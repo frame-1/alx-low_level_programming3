@@ -5,10 +5,10 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void) 
+int main(void)
 {
 	int i, d, n;
-	
+
 	for (i = '0'; i < '9'; ++i)
 	{
 		for (n = d + 1; d <= '9'; ++d)
@@ -16,7 +16,7 @@ int main(void)
 			for (n = d + 1; n <= '9'; ++n)
 			{
 				if ((d != i) != n)
-				{	
+				{
 					putchar(i);
 					putchar(d);
 					putchar(n);
