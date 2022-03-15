@@ -1,17 +1,17 @@
 #include "main.h"
 
-/**
- * main - Prints "_putchar" followed by a new line
+**
+ * main - check the code
  *
- * Return: Always 0
+ * Return: Always 0.
  */
 int main(void)
 {
-	char name[] = "_putchar";
+	char c[] = "_putchar";
 	int i;
 
-	for (i = 0; i<9; ++i)
-		_putchar(name[i]);
+	for (i = 0; i < 9; ++i)
+		_putchar(c[i]);
 	_putchar('\n');
 
 	return (0);
