@@ -6,6 +6,31 @@
  */
 void print_number(int n)
 {
+	char c, ch;
+	int i;
 
-	return (0);
+	if (n < 0)
+	{
+		_putchar('-');
+		c = ('0' - (n % 10));
+		n /= -10;
+	}
+	else
+	{
+		c = ((n % 10) + '0');
+		n /= 10;
+	}
+	i = 10;
+	while (n > 10)
+	{
+		i = i * 10 + (n % 10);
+		n /= 10;
+	}
+	while (i > 10)
+	{
+		ch = ((i % 10) + '0');
+		_putchar (ch);
+		i /= 10;
+	}
+	_putchar (c);
 }
