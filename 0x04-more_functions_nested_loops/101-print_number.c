@@ -20,13 +20,13 @@ void print_number(int n)
 		c = ((n % 10) + '0');
 		n /= 10;
 	}
-	i = 10;
-	while (n > 10)
+	i=0;
+	while (n > 0)
 	{
 		i = i * 10 + (n % 10);
 		n /= 10;
 	}
-	while (i > 10)
+	while (i > 0)
 	{
 		ch = ((i % 10) + '0');
 		_putchar (ch);
