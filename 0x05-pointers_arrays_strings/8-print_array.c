@@ -1,19 +1,20 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * main - check code.
  *
  * Return: Always 0.
  */
-int main(void)
+void print_array(int *a, int n)
 {
-	int array[5];
+	int i = 0;
 
-	array[0] = 98;
-	array[1] = 402;
-	array[3] = -198;
-	array[4] = 298;
-	array[5] = -1024;
-	print_array(array, 5);
-	return (0);
+	for (; i < n; i++)
+	{
+		printf("%d", a[i]);
+		if (i < n - 1)
+			printf(", ");
+	}
+	putchar('\n');
 }
