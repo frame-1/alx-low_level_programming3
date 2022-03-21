@@ -1,3 +1,4 @@
+#include "main.h"
 /**
  * _strcpy - check the code.
  * @dest: a pointer to destination of string.
