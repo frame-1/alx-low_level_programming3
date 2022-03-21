@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - check code.
+ * print_array - check code.
  * @a: String input
  * @n: a string input
  * Return: Always 0.
