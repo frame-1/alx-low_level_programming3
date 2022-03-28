@@ -4,7 +4,7 @@
  * _strchr - locates a character in a string
  * @s: string to be checked
  * @c: the character
- * Return: NULL	
+ * Return: NULL
  * @s. NULL if char isn't found
  */
 
